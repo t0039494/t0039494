@@ -14,6 +14,7 @@ class FancyTextField: UITextField {
         super.awakeFromNib()
         
                 layer.borderWidth = 1.0
+        
     }
     
     override func textRect(forBounds bounds: CGRect) -> CGRect {
